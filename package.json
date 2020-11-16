@@ -1,0 +1,99 @@
+{
+  "_from": "spread-js-table",
+  "_id": "spread-js-table@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-HqmHTvgqIGQa81QUOY4GEBBpEsQ=",
+  "_location": "/spread-js-table",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "spread-js-table",
+    "name": "spread-js-table",
+    "escapedName": "spread-js-table",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/spread-js-table/download/spread-js-table-1.0.0.tgz",
+  "_shasum": "1ea9874ef82a20641af35414398e0610106912c4",
+  "_spec": "spread-js-table",
+  "_where": "/Users/luckysnow/zcode/leisure time/npm-test/spread-js-table",
+  "author": {
+    "name": "hal-s"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bundleDependencies": false,
+  "peerDependencies": {
+    "vue": "^2.5.11",
+    "file-saver": "2.0.2",
+    "@grapecity/spread-excelio": "13.0.0",
+    "@grapecity/spread-sheets": "13.0.0",
+    "@grapecity/spread-sheets-charts": "13.0.0",
+    "@grapecity/spread-sheets-print": "13.0.0",
+    "@grapecity/spread-sheets-resources-zh": "13.0.0",
+    "@grapecity/spread-sheets-vue": "13.0.0"
+  },
+  "deprecated": false,
+  "description": "基于葡萄城spreadJS的table组件",
+  "keywords": [
+    "spread",
+    "spreadJS",
+    "spreadjs",
+    "table",
+    "spreadjs-table",
+    "spread-table",
+    "spreadJS-table"
+  ],
+  "bugs": "hal_focus@163.com",
+  "devDependencies": {
+    "@grapecity/spread-excelio": "13.0.0",
+    "@grapecity/spread-sheets": "13.0.0",
+    "@grapecity/spread-sheets-charts": "13.0.0",
+    "@grapecity/spread-sheets-print": "13.0.0",
+    "@grapecity/spread-sheets-resources-zh": "13.0.0",
+    "@grapecity/spread-sheets-vue": "13.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.22.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "file-saver": "2.0.2",
+
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.11",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "license": "MIT",
+  "main": "dist/spread-js-table.js",
+  "name": "spread-js-table",
+  "private": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build:demo": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.demo.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+  },
+  "version": "1.0.0"
+}
